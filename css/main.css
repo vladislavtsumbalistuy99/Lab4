@@ -1,0 +1,90 @@
+body {
+  background-color: #66ccff;
+background-image:url(/home/vladislav/lab4/css/bkgrnd.jpeg);
+}
+
+.field {
+  display: flex;
+  padding: 10px;
+  width: 25%;
+  margin-left: 37.5%;
+  color: #fff;
+  font-size: 1.3em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid #aaa719;
+  background-color: #668cff;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 120%;
+}
+
+.box:last-child {
+  margin-bottom: 0;
+}
+
+button.btn {
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 0.65em;
+  color: #fff;
+  outline: none;
+}
+
+.btn.light {
+  background-color: #4eafc9;
+  border: 2px outset #2a89a2;
+  margin-bottom: 10px;
+}
+
+.btn.red {
+  background-color: #dda66d;
+  border: 2px outset #b6821a;
+  margin-bottom: 10px;
+  margin-left: 160px;
+}
+.btn.new {
+  background-color: 	#33cc33;
+  border: 2px solid #ffffff;
+  margin-left: 30px;
+}
+
+textarea{
+  
+  resize: none;
+  background-color: #fafafa;
+  border: 1.5px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.7em;
+  width: 90%;
+  outline: none;
+}
+
+textarea:focus{
+  border: 1.5px solid #6d79cd;
+}
+
+.btn.success{
+    background-color: #4fc866;
+    border-color: #2aa24f;
+}
+
+.btn.light:hover {
+  background-color: #2a89a2;
+  border-color: #1d6f85;
+}
+
+.btn.red:hover {
+  background-color: #b6821a;
+  border-color: #946912;
+}
+.btn.success.hover{
+  background-color: #2aa24f;
+  border: 2px solid #1e853e;
+}
